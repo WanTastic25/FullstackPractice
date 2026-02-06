@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "FullstackPractice.Controllers.HeroesController",
+    "Method": "GetAllHeroes",
+    "RelativePath": "api/Heroes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FullstackPractice.Controllers.HeroesController",
+    "Method": "AddHero",
+    "RelativePath": "api/Heroes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addHeroDto",
+        "Type": "FullstackPractice.Models.AddHeroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FullstackPractice.Controllers.HeroesController",
+    "Method": "GetHeroById",
+    "RelativePath": "api/Heroes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FullstackPractice.Controllers.HeroesController",
+    "Method": "UpdateHero",
+    "RelativePath": "api/Heroes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateHeroDto",
+        "Type": "FullstackPractice.Models.UpdateHeroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FullstackPractice.Controllers.HeroesController",
+    "Method": "DeleteHero",
+    "RelativePath": "api/Heroes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FullstackPractice.Controllers.HeroesController",
+    "Method": "GetHeroByName",
+    "RelativePath": "api/Heroes/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

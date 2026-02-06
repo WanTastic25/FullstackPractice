@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\controllers\\heroescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|solutionrelative:controllers\\heroescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\models\\updateherodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|solutionrelative:models\\updateherodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\models\\addherodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|solutionrelative:models\\addherodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\models\\entities\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|solutionrelative:models\\entities\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\fullstackpractice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|solutionrelative:fullstackpractice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4EF9576-E0F5-4637-A389-731921A56784}|FullstackPractice.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateHeroDto.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Models\\UpdateHeroDto.cs",
+              "RelativeDocumentMoniker": "Models\\UpdateHeroDto.cs",
+              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Models\\UpdateHeroDto.cs",
+              "RelativeToolTip": "Models\\UpdateHeroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T02:12:05.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddHeroDto.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Models\\AddHeroDto.cs",
+              "RelativeDocumentMoniker": "Models\\AddHeroDto.cs",
+              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Models\\AddHeroDto.cs",
+              "RelativeToolTip": "Models\\AddHeroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T10:00:49.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FullstackPractice.csproj",
+              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\FullstackPractice.csproj",
+              "RelativeDocumentMoniker": "FullstackPractice.csproj",
+              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\FullstackPractice.csproj",
+              "RelativeToolTip": "FullstackPractice.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-05T09:12:46.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HeroesController.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Controllers\\HeroesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HeroesController.cs",
+              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Controllers\\HeroesController.cs",
+              "RelativeToolTip": "Controllers\\HeroesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T09:14:36.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-05T09:02:27.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T08:59:31.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hero.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Models\\Entities\\Hero.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Hero.cs",
+              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Models\\Entities\\Hero.cs",
+              "RelativeToolTip": "Models\\Entities\\Hero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T08:55:44.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAChAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T08:46:50.853Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
