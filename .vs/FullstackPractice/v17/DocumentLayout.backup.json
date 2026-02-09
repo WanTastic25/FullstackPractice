@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D061423E-B3D9-49AE-872E-090A2603CA95}|Backend\\FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D061423E-B3D9-49AE-872E-090A2603CA95}|Backend\\FullstackPractice.csproj|solutionrelative:backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D061423E-B3D9-49AE-872E-090A2603CA95}|Backend\\FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D061423E-B3D9-49AE-872E-090A2603CA95}|Backend\\FullstackPractice.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D061423E-B3D9-49AE-872E-090A2603CA95}|Backend\\FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\backend\\fullstackpractice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D061423E-B3D9-49AE-872E-090A2603CA95}|Backend\\FullstackPractice.csproj|solutionrelative:backend\\fullstackpractice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D061423E-B3D9-49AE-872E-090A2603CA95}|Backend\\FullstackPractice.csproj|c:\\users\\wanas\\source\\repos\\fullstackpractice\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D061423E-B3D9-49AE-872E-090A2603CA95}|Backend\\FullstackPractice.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Backend\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Backend\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Backend\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Backend\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-06T04:43:57.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Backend\\appsettings.json",
-              "RelativeDocumentMoniker": "Backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Backend\\appsettings.json",
-              "RelativeToolTip": "Backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-06T04:43:52.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Backend\\Program.cs",
-              "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T03:52:56.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FullstackPractice.csproj",
-              "DocumentMoniker": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Backend\\FullstackPractice.csproj",
-              "RelativeDocumentMoniker": "Backend\\FullstackPractice.csproj",
-              "ToolTip": "C:\\Users\\wanas\\source\\repos\\FullstackPractice\\Backend\\FullstackPractice.csproj",
-              "RelativeToolTip": "Backend\\FullstackPractice.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-06T03:47:14.425Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

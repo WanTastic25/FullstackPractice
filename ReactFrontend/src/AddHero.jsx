@@ -1,13 +1,15 @@
 import { useRef } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 
 function AddHero() {
+    const navigate = useNavigate();
     const nameRef = useRef();
     const positionRef = useRef();
     const healthRef = useRef();
     const manaRef = useRef();
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
+        e.preventDefault()
 
         const heroData = {
             Name: nameRef.current.value,
@@ -29,35 +31,51 @@ function AddHero() {
             console.log("Hero added:", data);
             alert("Hero added successfully!");
 
+            navigate("/")
+
         } catch {
 
         }
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <div>
-                <label>Name:</label>
-                <input type="text" ref={nameRef} placeholder="Hero name" required />
-            </div>
+        <div>
+            <h2>Add New Hero</h2>
+            <form onSubmit={handleSubmit}>
+                <div>
+                    <label>Name:</label>
+                    <input type="text" ref={nameRef} placeholder="Hero name" required />
+                </div>
 
-            <div>
-                <label>Position:</label>
-                <input type="text" ref={positionRef} placeholder="Position" required />
-            </div>
+                <div>
+                    <label>Position:</label>
+                    <select
+                        name="position"
+                        ref={positionRef}
+                        required
+                    >
+                        <option value="">Select Position</option>
+                        <option value="Pos 1">Pos1</option>
+                        <option value="Pos 2">Pos2</option>
+                        <option value="Pos 3">Pos3</option>
+                        <option value="Pos 4">Pos4</option>
+                        <option value="Pos 5">Pos5</option>
+                    </select>
+                </div>
 
-            <div>
-                <label>Health:</label>
-                <input type="number" ref={healthRef} placeholder="100" required />
-            </div>
+                <div>
+                    <label>Health:</label>
+                    <input type="number" ref={healthRef} placeholder="100" required />
+                </div>
 
-            <div>
-                <label>Mana:</label>
-                <input type="number" ref={manaRef} placeholder="50" required />
-            </div>
+                <div>
+                    <label>Mana:</label>
+                    <input type="number" ref={manaRef} placeholder="50" required />
+                </div>
 
-            <button type="submit">Add Hero</button>
-        </form>
+                <button type="submit">Add Hero</button>
+            </form>
+        </div>
     )
 }
 
