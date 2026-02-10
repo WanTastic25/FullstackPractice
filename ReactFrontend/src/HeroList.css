@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(18, 18, 20);
+    background: linear-gradient(to top right, rgb(18, 18, 20), rgb(34, 36, 40));
+    height: 100%;
+    min-height: 100vh;
+}
+
+.tableCard {
+    border: 1px solid rgb(18, 18, 20);
+    border-radius: 10px;
+
+    background-color: rgb(34, 36, 40);
+    box-shadow: 0px 0px 10px rgb(18, 18, 20);
+}
+
+.basicText {
+    color: rgb(220, 220, 220);
+}
+
+.editButton {
+    background-color: rgb(78, 130, 76);
+    border: 0px;
+}
+
+.deleteButton {
+    background-color: rgb(145, 28, 28);
+    border: 0px;
+}
+
+.baseButton {
+    max-width: 30px;
+    min-width: 10px;
+    margin-right: 10px;
+}
+
+.navButton {
+    background-color: rgb(70, 130, 180);
+    border: 0px;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.navSpace {
+    padding: 10px;
+}

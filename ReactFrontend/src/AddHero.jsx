@@ -39,17 +39,18 @@ function AddHero() {
     }
 
     return (
-        <div>
-            <h2>Add New Hero</h2>
+        <div className="tableCard d-flex justify-content-center flex-column p-5 m-5">
+            <h2 className="basicText">Add New Hero</h2>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label>Name:</label>
-                    <input type="text" ref={nameRef} placeholder="Hero name" required />
+                    <label className="form-label basicText">Name:</label>
+                    <input className="form-control" type="text" ref={nameRef} placeholder="Hero name" required />
                 </div>
 
                 <div>
-                    <label>Position:</label>
+                    <label className="form-label basicText">Position:</label>
                     <select
+                        className="form-select"
                         name="position"
                         ref={positionRef}
                         required
@@ -64,16 +65,17 @@ function AddHero() {
                 </div>
 
                 <div>
-                    <label>Health:</label>
-                    <input type="number" ref={healthRef} placeholder="100" required />
+                    <label className="form-label basicText">Health:</label>
+                    <input className="form-control" type="number" ref={healthRef} placeholder="100" required />
                 </div>
 
                 <div>
-                    <label>Mana:</label>
-                    <input type="number" ref={manaRef} placeholder="50" required />
+                    <label className="form-label basicText">Mana:</label>
+                    <input className="form-control" type="number" ref={manaRef} placeholder="50" required />
                 </div>
 
-                <button type="submit">Add Hero</button>
+                <button className="btn btn-success mt-3" type="submit">Add Hero</button>
+                <button className="btn btn-danger ms-2 mt-3" type="reset">Reset</button>
             </form>
         </div>
     )

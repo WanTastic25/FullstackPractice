@@ -8,9 +8,9 @@ function Navbar() {
     const navigate = useNavigate(); // must be inside a component
 
     return (
-        <div>
-            <button onClick={() => navigate("/")}>Hero List</button>
-            <button onClick={() => navigate("/hero/add")}>Add Hero</button>
+        <div className="navSpace">
+            <button className="navButton" onClick={() => navigate("/")}>Hero List</button>
+            <button className="navButton" onClick={() => navigate("/hero/add")}>Add Hero</button>
         </div>
     );
 }

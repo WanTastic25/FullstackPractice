@@ -63,13 +63,14 @@ function UpdateHero() {
     if (error) return <div>Error: {error}</div>;
 
     return (
-        <div>
-            <h2>Update Hero</h2>
+        <div className="tableCard d-flex justify-content-center flex-column p-5 m-5">
+            <h2 className="basicText">Update Hero</h2>
 
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label>Name</label>
+                    <label className="form-label basicText">Name</label>
                     <input
+                        className="form-control"
                         type="text"
                         name="name"
                         value={hero.name}
@@ -78,8 +79,9 @@ function UpdateHero() {
                 </div>
 
                 <div>
-                    <label>Position</label>
+                    <label className="form-label basicText">Position</label>
                     <select
+                        className="form-select"
                         name="position"
                         value={hero.position}
                         onChange={handleChange}
@@ -94,8 +96,9 @@ function UpdateHero() {
                 </div>
 
                 <div>
-                    <label>Health</label>
+                    <label className="form-label basicText">Health</label>
                     <input
+                        className="form-control"
                         type="number"
                         name="health"
                         value={hero.health}
@@ -104,8 +107,9 @@ function UpdateHero() {
                 </div>
 
                 <div>
-                    <label>Mana</label>
+                    <label className="form-label basicText" >Mana</label>
                     <input
+                        className="form-control"
                         type="number"
                         name="mana"
                         value={hero.mana}
@@ -113,7 +117,7 @@ function UpdateHero() {
                     />
                 </div>
 
-                <button type="submit">Update</button>
+                <button className="btn btn-success mt-3" type="submit">Update</button>
             </form>
         </div>
     )

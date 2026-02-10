@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import "./HeroList.css";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPen, faTrash } from '@fortawesome/free-solid-svg-icons';
 
 function HeroList() {
     const [heroes, setHeroes] = useState([]);
@@ -48,39 +52,45 @@ function HeroList() {
     if (error) return <div>Error: {error}</div>;
 
     return (
-        <div>
-            <h1>Dota2 Heroes List</h1>
-            <table className="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>Hero ID</th>
-                        <th>Portrait</th>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Health</th>
-                        <th>Mana</th>
-                        <th>Operations</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {heroes.map(hero => (
-                        <tr key={hero.id}>
-                            <td>{hero.id}</td>
-                            <td>Portrait</td>
-                            <td>{hero.name}</td>
-                            <td>{hero.position}</td>
-                            <td>{hero.health}</td>
-                            <td>{hero.mana}</td>
-                            <td>
-                                <Link to={`/hero/update/${hero.id}`}>
-                                    <button>Edit</button>
-                                </Link>
-                                <button onClick={() => handleDelete(hero.id)}>Delete</button>
-                            </td>
+        <div className="tableCard d-flex justify-content-center flex-column p-5 m-5">
+            <div className="tableTitle">
+                <h1 className="basicText">Dota2 Heroes List</h1>
+            </div>
+            <div className="tableContainer">
+                <table className="table table-dark table-striped mb-0">
+                    <thead>
+                        <tr>
+                            <th>Hero ID</th>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Health</th>
+                            <th>Mana</th>
+                            <th>Operations</th>
                         </tr>
-                    ))}
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        {heroes.map(hero => (
+                            <tr key={hero.id}>
+                                <td>{hero.id}</td>
+                                <td>{hero.name}</td>
+                                <td>{hero.position}</td>
+                                <td>{hero.health}</td>
+                                <td>{hero.mana}</td>
+                                <td>
+                                    <Link to={`/hero/update/${hero.id}`}>
+                                        <button className="editButton baseButton">
+                                            <FontAwesomeIcon icon={faPen} />
+                                        </button>
+                                    </Link>
+                                    <button className="deleteButton baseButton" onClick={() => handleDelete(hero.id)}>
+                                        <FontAwesomeIcon icon={faTrash} />
+                                    </button>
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
         </div>
     );
 }
